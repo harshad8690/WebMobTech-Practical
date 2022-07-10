@@ -46,7 +46,6 @@ class BlogController extends Controller
         // $category = Category::where('id', $categoryId)->first();
 
         $data = [
-            'user_id'  => 1,
             'title'    => $request->title,
             'content'  => $request->content,
         ];
